@@ -17,7 +17,7 @@ public class Activity {
     private Integer capacity;
     private Boolean cancelled;
 
-// this is a constructor 
+// this is a constructor
     public Activity(Integer id, Integer guide_id, Integer venue_id, String name, String description, LocalDate date, LocalTime time, String duration, Double price, Integer capacity, Boolean cancelled) {
         this.id = id;
         this.guide_id = guide_id;
