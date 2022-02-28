@@ -17,7 +17,10 @@ public class Activity {
     private Integer capacity;
     private Boolean cancelled;
 
-// this is a constructor 
+// this is a constructor
+    // need to pass through the id's in the constructor so when
+// we can have access to them through getters, setters, and
+// they will be included in each activity we create
     public Activity(Integer id, Integer guide_id, Integer venue_id, String name, String description, LocalDate date, LocalTime time, String duration, Double price, Integer capacity, Boolean cancelled) {
         this.id = id;
         this.guide_id = guide_id;
